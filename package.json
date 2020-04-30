@@ -1,0 +1,26 @@
+{
+  "name": "autoesm",
+  "version": "1.0.0",
+  "description": "Import ESM based on file source rather than .mjs extension or \"type\": \"module\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dy/autoesm.git"
+  },
+  "keywords": [
+    "ESM",
+    "loader"
+  ],
+  "author": "dy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dy/autoesm/issues"
+  },
+  "homepage": "https://github.com/dy/autoesm#readme",
+  "dependencies": {
+    "is-module": "^1.0.0"
+  }
+}
