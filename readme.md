@@ -4,7 +4,7 @@ Node@13+ supports ES modules natively, but doesn't let importing arbitrary modul
 
 _autoesm_ resolves that by detecting ESM based on source, (not extension), allowing to import any ESM files (like existing ESM ecosystem with `"module"` field in `package.json` for unpkg/pikacdn).
 
-Slow? Maybe. Runtime flag is a bummer too. In long term all ESM packages will get `"type": "module"` flag, but for now it saves nerves and time.
+Slow? Maybe. Runtime flag is a bummer too. In long term all ESM packages will get `"type": "module"` flag, but for now it saves nerves and time for running tests.
 
 Also - the [esm](https://ghub.io/esm) is broken for node@13+, so this is the replacement.
 
