@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Import ESM based on file source rather than .mjs extension or \"type\": \"module\"",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
