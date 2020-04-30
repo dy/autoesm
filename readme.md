@@ -4,6 +4,8 @@ Node@13+ supports ES modules natively, but doesn't let importing arbitrary modul
 
 _autoesm_ resolves that by detecting ESM based on source, (not extension), allowing to import any ESM files (like existing ESM ecosystem with `"module"` field in `package.json` for unpkg/pikacdn). Slow? Maybe. But saves nerves and time figuring out deps.
 
+Also - the [esm](https://ghub.io/esm) is broken for node@13+, so this is the replacement.
+
 ## Usage
 
 [![npm i autoesm](https://nodei.co/npm/autoesm.png?mini=true)](https://npmjs.org/package/autoesm/)
