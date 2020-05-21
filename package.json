@@ -1,6 +1,6 @@
 {
   "name": "autoesm",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Import ESM based on file source rather than .mjs extension or \"type\": \"module\"",
   "main": "index.js",
   "type": "module",
